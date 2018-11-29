@@ -7,7 +7,7 @@
 	1. Number of overlapping urlh is found by taking equality of each rows and urlh column in t_file and y_file.
 	2. Drop null values from mrp column, and create table of mrp and url with condition on http_status being 200.Then drop duplicates of urlh keeping first of valid urlh.Now iterarte over today's new Mrp_x table compare against yesterday's new table of Mrp_y and generate data of dictionary of price difference and make new dataframe of price difference.
 	3. Create t_category and y_category from t and y dataframe with value_counts() function to get unique values.
-	4. 
+	4. Overlapping and not overlapping are found by isin method of pandas to check into each others unique value of columns.
 	5.Taxonomy dataframe created using groupby method and its grouped on category,subcategory.Then count method is perfomed on this dataframe to get taxonomy of it.
 	6.Get min and max of column and normalize with formula x = (x - x_min) / (x_max - x_min) on each row using apply method.
   
