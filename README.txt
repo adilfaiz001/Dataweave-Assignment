@@ -10,4 +10,7 @@
 	4. Overlapping and not overlapping are found by isin method of pandas to check into each others unique value of columns.
 	5.Taxonomy dataframe created using groupby method and its grouped on category,subcategory.Then count method is perfomed on this dataframe to get taxonomy of it.
 	6.Get min and max of column and normalize with formula x = (x - x_min) / (x_max - x_min) on each row using apply method.
-  
+
+
+
+
